@@ -133,10 +133,10 @@ class NewsParser(BaseParser):
 if __name__ == "__main__":
     parser = Preview(page=2)
     parser.get_links()
-    # print(parser._Preview__links)
-    # parser.save_to_json("tmp_links_5")
-    # parser.save_to_file("tmp_links_5")
-    # for link in parser:
-    #     print(link)
+    print(parser._Preview__links)
+    parser.save_to_json("tmp_links_5")
+    parser.save_to_file("tmp_links_5")
+    for link in parser:
+        print(link)
     a = parser[0:3]
     print(a)
