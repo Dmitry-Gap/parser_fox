@@ -142,3 +142,4 @@ cython_debug/
 news_data/ 
 .vscode/
 tmp_*
+20*
